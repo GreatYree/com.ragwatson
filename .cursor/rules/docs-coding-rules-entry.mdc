@@ -1,0 +1,14 @@
+---
+description: 코딩 규칙 진입 — docs/coding-rules.md 및 연결 문서 준수
+alwaysApply: true
+---
+
+# 코딩 규칙 (docs 경유)
+
+`.cursorrules`에 따라, **코드 변경 전** [docs/coding-rules.md](../../docs/coding-rules.md)를 기준으로 한다.
+
+1. 해당 문서의 **영역별 표**에서 작업 경로에 맞는 규칙·`.mdc`를 연다.
+2. `CLAUDE.md` / `AGENTS.md`의 행동 원칙을 따른다.
+3. 규칙 본문을 채팅에 장문으로 붙이지 말고, **링크된 파일을 읽고 적용**한다.
+
+새 스택별 규칙은 `.cursor/rules/*.mdc` 또는 `docs/*.md`에 추가하고, `docs/coding-rules.md` 목차에 **한 줄 링크**만 넣는다.
